@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zely_ice_dragon",
+  "version": "${version}",
+  "name": "Zely: Ice & Dragon Magic",
+  "description": "Мод способностей персонажа ZelyMars: лёд, драконья магия и древняя энергия.",
+  "authors": ["ZelyMars"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.zelymars.icedragon.ZelyIceDragon"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
